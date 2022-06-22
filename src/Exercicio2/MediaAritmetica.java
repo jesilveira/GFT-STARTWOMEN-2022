@@ -17,9 +17,9 @@ public class MediaAritmetica {
 		System.out.println("Digite a terceira nota: ");
 		nota3 = entrada.nextFloat();
 
-		media = ((nota1 * 2) + (nota2 * 2) + (nota3 * 2));
+		media = ("nota1"  + "nota2"  + "nota3") / 2;
 
-		System.out.printf("A media do aluno e: %.2f%n", media);
+		System.out.printf("A media do aluno é: %.2f%n", media);
 
 	}
 		
